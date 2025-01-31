@@ -1,0 +1,44 @@
+.offerContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: aqua;
+}
+
+.offerDetails {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.button {
+  margin-top: 1rem;
+  text-transform: none;
+}
+
+.contactCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.cardTitle {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+
+.detailsContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.heading {
+  text-align: left;
+}

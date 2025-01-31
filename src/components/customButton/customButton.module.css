@@ -1,0 +1,8 @@
+.buttonBox {
+  text-transform: capitalize !important;
+  background-color: #ffffff !important;
+  color: rgb(86, 86, 230) !important;
+  border-radius: 0.5rem !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+}

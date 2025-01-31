@@ -1,0 +1,26 @@
+.headContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start !important;
+  gap: 1rem;
+}
+
+.checkBoxContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.heading {
+  font-size: 12px;
+  font-weight: 700;
+  color: #ffffff;
+}

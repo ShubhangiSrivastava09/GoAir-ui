@@ -1,0 +1,23 @@
+.headContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.radioContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.radioButton {
+  color: #ffffff !important;
+}
+
+.label {
+  font-size: 10px !important;
+  color: #ffffff;
+}

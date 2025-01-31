@@ -1,0 +1,36 @@
+.cardContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  box-shadow: 3;
+  padding: 0.5rem;
+  gap: 2rem;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4rem;
+}
+
+.flightName {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.img {
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: "50%";
+  object-fit: cover;
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
