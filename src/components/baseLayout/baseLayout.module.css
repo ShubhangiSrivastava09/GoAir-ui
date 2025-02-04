@@ -1,26 +1,25 @@
 .layoutGrid {
   display: grid;
-  grid-template-columns: 30% 70%; /* Sidebar (25%) | Main Content (75%) */
-  gap: 16px; /* Space between columns */
+  grid-template-columns: 30% 70%;
+  gap: 16px;
   align-items: flex-start;
 }
 
 .sidebar {
-  background-color: transparent; /* Optional styling */
+  background-color: transparent;
   padding: 16px;
 }
 
 .mainContent {
-  background-color: transparent; /* Optional styling */
+  background-color: transparent;
   padding: 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* Responsive for Mobile */
 @media (max-width: 900px) {
   .layoutGrid {
-    grid-template-columns: 1fr; /* Full width on mobile */
+    grid-template-columns: 1fr;
   }
 }

@@ -8,7 +8,6 @@ import styles from "./sideNav.module.css";
 const SideNav = () => {
   return (
     <Box display="flex" flexDirection="column" gap={2} p={2} width="100%">
-      {/* Flight Offers Card */}
       <SideCards image="https://www.shutterstock.com/image-photo/white-passenger-airplane-flying-sky-600nw-2331577059.jpg">
         <Box className={styles.offerContianer}>
           <Box className={styles.offerDetails}>

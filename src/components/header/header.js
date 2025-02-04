@@ -25,7 +25,6 @@ const Header = () => {
   return (
     <AppBar position="static" className={styles.appBar}>
       <Toolbar className={styles.toolbar}>
-        {/* Left: Navigation Icons */}
         <Box display="flex" alignItems="center" gap={1}>
           <Button startIcon={<FlightTakeoffIcon />}>Flights</Button>
           <Button startIcon={<HotelIcon />}>Hotels</Button>

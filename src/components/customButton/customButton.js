@@ -9,7 +9,6 @@ function CustomButton({ label }) {
       variant="contained"
       className={styles.buttonBox}
       sx={{ fontSize: "10px" }}
-      // onClick={() => handleClick()}
     >
       {label}
     </Button>

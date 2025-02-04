@@ -20,7 +20,7 @@ function TextInput({
       <TextField
         sx={{
           height,
-          bgcolor: `rgba(255, 255, 255, ${opacity})`, // 👈 Only background is affected
+          bgcolor: `rgba(255, 255, 255, ${opacity})`,
           borderRadius: 2,
           "& .MuiInputBase-root": {
             borderRadius: 2,
@@ -29,10 +29,10 @@ function TextInput({
           "& input": {
             height: "100%",
             padding: "10px",
-            color: "white", // 👈 Ensure text remains white
+            color: "white",
             fontWeight: "bold",
           },
-          "& .MuiInputLabel-root": { color: "white" }, // Label stays white
+          "& .MuiInputLabel-root": { color: "white" },
           "& .MuiInput-underline:before": { borderBottom: "none" },
           "& .MuiInput-underline:after": { borderBottom: "none" },
           "& .MuiInput-underline:hover:not(.Mui-disabled):before": {
