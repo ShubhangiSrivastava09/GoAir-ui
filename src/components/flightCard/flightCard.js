@@ -1,13 +1,5 @@
 import React from "react";
-import {
-  Card,
-  CardContent,
-  CardMedia,
-  Typography,
-  Box,
-  Button,
-  Divider,
-} from "@mui/material";
+import { Card, Typography, Box, Button } from "@mui/material";
 
 import styles from "./flightCard.module.css";
 
